@@ -1,10 +1,11 @@
+package Day1;
 import java.util.Scanner;
 import java.io.*;
 
 class Day1{
     public static void main(String[] args) throws FileNotFoundException{
         
-        File file = new File("ElfCals.txt");
+        File file = new File("Day1\\ElfCals.txt");
         Scanner input = new Scanner(file);
         
         int mostCals = -1;
