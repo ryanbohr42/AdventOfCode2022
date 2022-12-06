@@ -36,7 +36,7 @@ public class D6P2 {
         }
         //check if first 14 letters are unique, and if so print out marker
         if(uniqueChars == windowSize){
-            System.out.println(signal.substring(0, 4));
+            System.out.println(signal.substring(0, windowSize));
         }
 
         //iterate through the rest of the input adjusting character counts and unique count as necessary
