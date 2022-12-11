@@ -26,7 +26,7 @@ public class D10P2 {
                     System.out.print("#");
                 }
                 else{
-                    System.out.print(".");
+                    System.out.print(" ");
                 }
                 busyCycles--;
                 cycle++;
