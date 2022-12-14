@@ -1,3 +1,5 @@
+#Day 13 solution written by Eric Wastl, topaz, maker of Advent of Code
+
 from functools import cmp_to_key
 from math import prod
 
@@ -16,3 +18,5 @@ print(sum(i for i, p in enumerate(packets, 1) if cmp(*p) == -1))
 
 packets = sorted(sum(packets, [[2], [6]]), key=cmp_to_key(cmp))
 print(prod(i for i, p in enumerate(packets, 1) if p in [[2], [6]]))
+
+#Not my code
